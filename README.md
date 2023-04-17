@@ -108,7 +108,11 @@ npm install
 (Consola) ng serve <br>
 (Navegador) localhost:4200
 
-# Respuesta
+###  Fecha límite del entregable
+
+Cabe recarlacar que tienen un tiempo de 2 días hábiles para hacer la entrega de la misma, siendo la fecha límite el martes 18 de abril a las 12 de la noche.
+
+###  Respuesta
 
 Una vez finalizada la prueba, deberá subir el proyecto en su propio repositorio de git de forma pública y enviar el link al correo jclopezm@garantiascomunitarias.com, con el asunto POSTULADO RED SOPORTE TECNOLÓGICO, además deberá incluir sus datos personales como nombre, cédula y contacto.
 
