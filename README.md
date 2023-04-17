@@ -27,8 +27,8 @@ Tabla: gce_caracteristicas
 (Consola CMD) <br>
 (Xampp) cd C:\xampp\htdocs <br>
 (Wamp) cd C:\wamp64\www <br>
-git clone https://github.com/aospinagcg/Prueba2022Feb.git Prueba2022 <br>
-Nótese que la carpeta debe renombrarse a "Prueba2022", de lo contrario, no funcionará correctamente <br>
+git clone https://github.com/Nelmajuva/Prueba-T-cnica-Angular.git <br>
+Nótese que la carpeta debe renombrarse a "Prueba2023", de lo contrario, no funcionará correctamente <br>
 
 #### Diseño
 
@@ -50,13 +50,13 @@ Nota: Ninguna de las acciones descritas anteriormente deberá recargar la págin
 #### Instalación
 
 (Consola CMD) <br>
-(Xampp) cd C:\xampp\htdocs\Prueba2022 <br>
-(Wamp) cd C:\wamp64\www\Prueba2022 <br>
+(Xampp) cd C:\xampp\htdocs\Prueba2023 <br>
+(Wamp) cd C:\wamp64\www\Prueba2023 <br>
 composer install
 
 #### Apertura
 
-(Navegador) localhost/Prueba2022/views
+(Navegador) localhost/Prueba2023/views
 
 # Prueba aspirantes Laravel
 
@@ -66,12 +66,13 @@ composer install
 - Crear controlador para definir la lógica y métodos de `gce_caracteristicas`.
 - Utilice el ORM Eloquent en todas las peticiones hacia la base de datos
 - Crear API de servicios que retornen la información solicitada por el cliente => ANGULAR.
+- Actualiza la versión de Laravel a la versión más actual. (10)
 
 #### Instalación
 
 (Consola CMD) <br>
-(Xampp) cd C:\xampp\htdocs\Prueba2022\laravel <br>
-(Wamp) cd C:\wamp64\www\Prueba2022\laravel <br>
+(Xampp) cd C:\xampp\htdocs\Prueba2023\laravel <br>
+(Wamp) cd C:\wamp64\www\Prueba2023\laravel <br>
 composer install <br>
 npm install <br>
 <br>
@@ -93,12 +94,13 @@ Además, deberá ejecutar el comando "php artisan key:generate" <br>
 - La construcción de la tabla deberá hacerce en el html, por medio de la directiva ngFor
 - Dentro de la tabla, utilice un pipe que convierta la inicial de cada una de las columnas siempre en mayúscula y el resto en minúscula
 - Los servicios deberán consumir la información del API de Laravel
+- Actualiza la versión de Angular a la versión más actual. (15)
 
 #### Instalación
 
 (Consola CMD) <br>
-(Xampp) cd C:\xampp\htdocs\Prueba2022\public\components <br>
-(Wamp) cd C:\wamp64\www\Prueba2022\public\components <br>
+(Xampp) cd C:\xampp\htdocs\Prueba2023\public\components <br>
+(Wamp) cd C:\wamp64\www\Prueba2023\public\components <br>
 npm install
 
 #### Apertura
@@ -108,5 +110,6 @@ npm install
 
 # Respuesta
 
-Una vez finalizada la prueba, deberá subir el proyecto en su propio repositorio de git de forma pública y enviar el link al correo aospina@garantiascomunitarias.com,
-con el asunto POSTULADO RED SOPORTE TECNOLÓGICO, además deberá incluir sus datos personales como nombre, cédula y contacto.
+Una vez finalizada la prueba, deberá subir el proyecto en su propio repositorio de git de forma pública y enviar el link al correo jclopezm@garantiascomunitarias.com, con el asunto POSTULADO RED SOPORTE TECNOLÓGICO, además deberá incluir sus datos personales como nombre, cédula y contacto.
+
+Nuestro equipo de trabajo desarrolló este proyecto con el propósito de filtrar la gran cantidad de solicitudes que recibimos para este puesto y facilitar el proceso de selección. Agradecemos tu interés y esperamos que este proceso sea beneficioso tanto para nosotros como para ti.

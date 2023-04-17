@@ -2,7 +2,6 @@
 
 namespace GCE\Config;
 
-use Throwable;
 use Exception;
 use PDO;
 

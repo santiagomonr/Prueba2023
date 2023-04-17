@@ -8,7 +8,7 @@
 /** Clase que permite hacer peticiones al api */
 class ApiRequest {
   /** Ruta del api */
-  static apiPath = '/Prueba2022/private/';
+  static apiPath = '/Prueba2023/private/';
 
   constructor() { }
 

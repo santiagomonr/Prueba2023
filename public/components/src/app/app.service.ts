@@ -8,7 +8,7 @@ import { DataType } from './app.interface';
 })
 export class AppService {
 
-  #apiPath = 'http://localhost/Prueba2022/private/';
+  #apiPath = 'http://localhost/Prueba2023/private/';
 
   constructor(
     private http: HttpClient
