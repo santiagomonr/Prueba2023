@@ -76,8 +76,6 @@ composer install
 composer install <br>
 npm install <br>
 <br>
-Los proyectos de Larave requieren un archivo ".env" en la raíz para funcionar, renombre y configure el archivo ".env.example". <br>
-Además, deberá ejecutar el comando "php artisan key:generate" <br>
 
 #### Apertura
 
@@ -87,14 +85,15 @@ Además, deberá ejecutar el comando "php artisan key:generate" <br>
 # Prueba aspirantes Angular
 
 - Con base en el funcionamiento del código de HTML Y Javascript, realizar migración del mismo para el framework de Angular.
-- La regla de estilo de la fila deberá aplicarse por medio de una directiva
-- El formulario de actualización debe crearse en un componente por separado y los datos del computador seleccionado deberán pasarse por decoradores Input
-- Una vez actualizado el computador, deberá informar al componente app por medio del decorador Output
-- Utilice formularios reactivos para la recolección y validación de información de registro y actualización
-- La construcción de la tabla deberá hacerce en el html, por medio de la directiva ngFor
-- Dentro de la tabla, utilice un pipe que convierta la inicial de cada una de las columnas siempre en mayúscula y el resto en minúscula
-- Los servicios deberán consumir la información del API de Laravel
-- Actualiza la versión de Angular a la versión más actual. (15)
+- La regla de estilo de la fila deberá aplicarse por medio de una directiva.
+- El formulario de actualización debe crearse en un componente por separado y los datos del computador seleccionado deberán pasarse por decoradores Input.
+- Una vez actualizado el computador, deberá informar al componente app por medio del decorador Output.
+- Utilice formularios reactivos para la recolección y validación de información de registro y actualización.
+- La construcción de la tabla deberá hacerce en el html, por medio de la directiva ngFor.
+- Dentro de la tabla, utilice un pipe que convierta la inicial de cada una de las columnas siempre en mayúscula y el resto en minúscula.
+- Los servicios deberán consumir la información del API de Laravel.
+- Actualizar el proyecto de Angular a la versión más actual. (15)
+- Actualizar el proyecto de Laravel a la versión más actual. (10)
 
 #### Instalación
 
@@ -110,7 +109,7 @@ npm install
 
 ###  Fecha límite del entregable
 
-Cabe recarlacar que tienen un tiempo de 2 días hábiles para hacer la entrega de la misma, siendo la fecha límite el martes 18 de abril a las 12 de la noche.
+Cabe recarlacar que tienes un tiempo para hacer la entrega de la misma, siendo la fecha límite el domingo 7 de mayo a las 12 de la noche. Esto con el objetivo de darte pronto respuesta el siguiente día hábil.
 
 ###  Respuesta
 
