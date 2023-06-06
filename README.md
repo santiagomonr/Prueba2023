@@ -92,7 +92,7 @@ npm install <br>
 - La construcción de la tabla deberá hacerce en el html, por medio de la directiva ngFor.
 - Dentro de la tabla, utilice un pipe que convierta la inicial de cada una de las columnas siempre en mayúscula y el resto en minúscula.
 - Los servicios deberán consumir la información del API de Laravel.
-- Actualizar el proyecto de Angular a la versión más actual. (15)
+- Actualizar el proyecto de Angular a la versión más actual. (16)
 - Actualizar el proyecto de Laravel a la versión más actual. (10)
 
 #### Instalación
@@ -106,10 +106,6 @@ npm install
 
 (Consola) ng serve <br>
 (Navegador) localhost:4200
-
-###  Fecha límite del entregable
-
-Cabe recarlacar que tienes un tiempo para hacer la entrega de la misma, siendo la fecha límite el domingo 7 de mayo a las 12 de la noche. Esto con el objetivo de darte pronto respuesta el siguiente día hábil.
 
 ###  Respuesta
 
