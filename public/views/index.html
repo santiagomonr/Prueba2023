@@ -96,10 +96,91 @@
               <th>Mouse</th>
               <th>Pantalla</th>
               <th>Estado</th>
+              <th>Opcionees</th>
             </tr>
           </thead>
           <tbody></tbody>
         </table>
+      </div>
+    </div>
+  </div>
+
+
+<!--Ventana modal de edicion-->
+  <div class="modal fade" id="Modal_Edit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Actualizar datos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="update_form" class="row">
+
+            <input type="hidden" class="input_modal">
+            
+            <div class="mb-3 col-lg-4 col-sm-6">
+              Nombre Equipo
+              <input required class="form-control input_modal" type="text"  name="Edit_gce_nombre_equipo" >
+            </div>
+
+            <div class="mb-3 col-lg-4 col-sm-6">
+              Board
+              <input required class="form-control input_modal" type="text"  name="Edit_gce_board" >
+            </div>
+        
+            <div class="mb-3 col-lg-4 col-sm-6">
+              Torre
+              <input required class="form-control input_modal" type="text"  name="Edit_gce_case" >
+            </div>
+         
+            <div class="mb-3 col-lg-4 col-sm-6">
+              Procesador
+              <input required class="form-control input_modal" type="text"  name="Edit_gce_procesador" >
+            </div>
+            
+            <div class="mb-3 col-lg-4 col-sm-6">
+              Grafica
+              <input required class="form-control input_modal" type="text"  name="Edit_gce_grafica" >
+            </div>
+           
+            <div class="mb-3 col-lg-4 col-sm-6">
+              Ram
+              <input required class="form-control input_modal" type="text"  name="Edit_gce_ram" >
+            </div>
+            
+            <div class="mb-3 col-lg-4 col-sm-6">
+              Disco duro
+              <input required class="form-control input_modal" type="text"  name="Edit_gce_disco_duro" >
+            </div>
+            
+            <div class="mb-3 col-lg-4 col-sm-6">
+              Teclado
+              <input required class="form-control input_modal" type="text"  name="Edit_gce_teclado" >
+            </div>
+           
+            <div class="mb-3 col-lg-4 col-sm-6">
+              Mouse
+              <input required class="form-control input_modal" type="text"  name="Edit_gce_mouse" >
+            </div>
+            
+            <div class="mb-3 col-sm-6 col-lg-6">
+              Pantalla
+              <input required class="form-control input_modal" type="text"  name="Edit_gce_pantalla" >
+            </div>
+            
+            <label class="mb-3 col-sm-6 col-lg-6 position-relative">
+              <div class="position-absolute">Estado</div>
+              <select class="form-select input_modal"  name="Edit_gce_estado">
+                <option value="0">Inactivo</option>
+                <option value="1">Activo</option>
+              </select>
+            </label>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onclick="Computador.UpdateInformacion()">Guardar</button>
+        </div>
       </div>
     </div>
   </div>

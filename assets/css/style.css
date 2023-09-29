@@ -99,3 +99,13 @@ table,
 table.table {
   margin-bottom: 0;
 }
+
+/*Clase para los estados inactivos*/
+.row-status-inactive{background: rgb(221, 87, 87);}
+
+/*Opciones de la tabla*/
+td button{
+  border: none;
+  background: none;
+  text-decoration:underline;
+}

@@ -81,6 +81,25 @@ class Caracteristicas extends Connection
         }
     }
 
+    //Actualiza el estado del equipo
+    public function UpdateStatus()
+    {
+        // Código de consulta
+        $query = "UPDATE `gce_caracteristicas` SET `gce_estado` = ".$this->gce_estado." WHERE `gce_caracteristicas`.`gce_id` = ".$this->gce_id."; ";
+
+        // Prepara la sentencia
+        $sql = $this->DB->prepare($query);
+
+        // Ejecuta la consulta
+        try {
+            $sql->execute();
+            $this->clear();
+            return ["status" => 200, "response" => true];
+        } catch (\Throwable $th) {
+            return ["status" => 400, "response" => false, "message" => 'No es posible actualizar los registros: ' . $th->getMessage()];
+        }
+    }
+
     /** Guarda registros en la tabla de características */
     public function save()
     {
@@ -112,6 +131,44 @@ class Caracteristicas extends Connection
             return $this->get();
         } catch (\Throwable $th) {
             return ["status" => 200, "response" => false, "message" => 'No es posible insertar el registro: ' . $th->getMessage()];
+        }
+    }
+
+    //Actualiza los campos 
+    public function UpdateAll()
+    {
+        // consulta
+        $query = "UPDATE `gce_caracteristicas` SET `gce_nombre_equipo`='".$this->gce_nombre_equipo."', `gce_board` ='".$this->gce_board."', `gce_case` ='".$this->gce_case."', `gce_procesador` = '".$this->gce_procesador."',
+        `gce_grafica` ='".$this->gce_grafica."', `gce_ram` ='".$this->gce_ram."', `gce_disco_duro` ='".$this->gce_disco_duro."', `gce_teclado` ='".$this->gce_teclado."', `gce_mouse` = '".$this->gce_mouse."', `gce_pantalla` = '".$this->gce_pantalla."', 
+        `gce_estado` ='".$this->gce_estado."' WHERE `gce_caracteristicas`.`gce_id` = ".$this->gce_id.";";
+        
+         //Prepara la sentencia
+        $sql = $this->DB->prepare($query);
+        // Ejecuta la consulta
+        try {
+            $sql->execute();
+            $this->clear();
+            return ["status" => 200, "response" => true];
+        } catch (\Throwable $th) {
+            return ["status" => 400, "response" => false, "message" => 'No es posible actualizar el equipo: ' . $th->getMessage()];
+        }
+    }
+
+    //Elimina el elemento seleccionado
+    public function DeleteElement()
+    {
+        // Consulta
+        $query = "DELETE FROM `gce_caracteristicas` WHERE `gce_caracteristicas`.`gce_id` = ".$this->gce_id.";";
+        
+         //Prepara la sentencia
+        $sql = $this->DB->prepare($query);
+        // Ejecuta la consulta
+        try {
+            $sql->execute();
+            $this->clear();
+            return ["status" => 200, "response" => true];
+        } catch (\Throwable $th) {
+            return ["status" => 400, "response" => false, "message" => 'No es posible actualizar el equipo: ' . $th->getMessage()];
         }
     }
 
